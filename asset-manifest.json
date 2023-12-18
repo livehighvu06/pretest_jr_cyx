@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pretest_jr_cyx/static/css/main.f897c4f8.css",
+    "main.js": "/pretest_jr_cyx/static/js/main.796c4b28.js",
+    "index.html": "/pretest_jr_cyx/index.html",
+    "main.f897c4f8.css.map": "/pretest_jr_cyx/static/css/main.f897c4f8.css.map",
+    "main.796c4b28.js.map": "/pretest_jr_cyx/static/js/main.796c4b28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f897c4f8.css",
+    "static/js/main.796c4b28.js"
+  ]
+}
