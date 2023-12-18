@@ -26,12 +26,12 @@ const PriceInput = () => {
   };
 
   return (
-    <div className="p-4 border border-dashed max-w-fit">
+    <div className="p-4 border border-dashed w-[300px] mb-4">
       <div className="text-gray-600 mb-2">入住費用（每人每晚）：</div>
-      <div className="flex">
+      <div className="flex ">
         <label
           htmlFor="input-label"
-          className="bg-[#000] w-[50px] leading-[50px] text-center uppercase text-white"
+          className="bg-[#000] w-[50px] leading-[50px] text-center uppercase text-white cursor-pointer"
         >
           twd
         </label>
@@ -40,7 +40,7 @@ const PriceInput = () => {
           type="text"
           className={`border ${
             error ? "border-red-500" : "border-gray-300"
-          } p-2 text-gray-800`}
+          } p-2 text-gray-800 flex-1 cursor-pointer`}
           placeholder="請輸入費用"
           value={price}
           onChange={handleInputChange}

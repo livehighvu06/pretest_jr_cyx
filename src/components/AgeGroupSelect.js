@@ -18,12 +18,12 @@ const AgeGroupSelect = () => {
   };
 
   return (
-    <div className="p-4 border border-dashed max-w-fit">
+    <div className="p-4 border border-dashed w-[300px] mb-4">
       <p className="text-gray-600 mb-2">年齡</p>
       <div className="flex">
         <select
           id="startAge"
-          className="w-20 p-2 border rounded-t-xl rounded-l-xl rounded-r-none"
+          className="appearance-none w-20 p-2 border rounded-r-none rounded-l-xl flex-1 cursor-pointer"
           value={startAge}
           onChange={handleStartAgeChange}
         >
@@ -36,7 +36,7 @@ const AgeGroupSelect = () => {
         <div className="px-4 bg-slate-300 flex items-center">~</div>
         <select
           id="endAge"
-          className="w-20 p-2 border rounded-r-xl rounded-b-xl rounded-l-none"
+          className="appearance-none w-20 p-2 border rounded-l-none rounded-r-xl flex-1 cursor-pointer"
           value={endAge}
           onChange={handleEndAgeChange}
         >
